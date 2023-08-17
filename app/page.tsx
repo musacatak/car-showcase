@@ -3,7 +3,7 @@ import { Hero } from '@/components'
 import Image from 'next/image'
 import SearchBar from '@/components/SearchBar'
 import CustomFilter from '@/components/CustomFilter'
-import { fetchCars } from '@/Utils'
+import { fetchCars } from '@/utils'
 import CarCard from '@/components/CarCard'
 
 export default async function Home() {
